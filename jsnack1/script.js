@@ -5,8 +5,8 @@ L’utente inserisce due numeri in successione, con due prompt. Il software stam
 */
 
 
-const firstNumber = prompt ("Inserisci il primo numero");
-const secondNumber = prompt ("Inserisci il secondo numero");
+const firstNumber = parseInt(prompt ("Inserisci il primo numero"));
+const secondNumber = parseInt(prompt ("Inserisci il secondo numero"));
 
 console.log("Primo numero:",firstNumber);
 console.log("Secondo numero:",secondNumber);
