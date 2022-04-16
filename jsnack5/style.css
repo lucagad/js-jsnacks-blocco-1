@@ -1,0 +1,18 @@
+.wrap{
+  height: 100vh;
+  background-color: #001433;;
+}
+
+.form_box img{
+  width: 300px;
+  border-radius: 20px;
+}
+
+.form_box{
+  background-color: rgba(255, 254, 254, 0.486);
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+}
