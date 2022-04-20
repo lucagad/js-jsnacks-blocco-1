@@ -5,6 +5,7 @@ L’utente inserisce due numeri in successione, con due prompt. Il software stam
 */
 
 
+
 const firstNumber = parseInt(prompt ("Inserisci il primo numero"));
 const secondNumber = parseInt(prompt ("Inserisci il secondo numero"));
 
@@ -14,4 +15,6 @@ console.log("Secondo numero:",secondNumber);
 
 if(firstNumber > secondNumber){ 
   alert("Il numero maggiore è: "+firstNumber);
-} else alert("Il numero maggiore è: "+secondNumber);
+} else if(firstNumber < secondNumber) {
+  alert("Il numero maggiore è: "+secondNumber);
+} else alert("I due numeri sono uguali");
